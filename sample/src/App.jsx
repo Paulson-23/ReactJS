@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Navbar from './components/Navbar'
 function App(){
+  const Appname = "P A U L S 0 N"
   return (
       <>
-        <div className='h-screen w-screen flex justify-center items-center bg-gradient-to-r from-black to-blue-500'>
+        <div className='h-screen w-screen flex flex-col justify-center items-center bg-gradient-to-r from-black to-blue-500'>
           <div className='h-3/5 w-1/3 bg-black flex flex-col justify-center items-center rounded-lg'>
           <h1 className='text-white font-bold text-3xl'>Sign-Up</h1>
           <form className='w-[80%] h-[80%] flex flex-col justify-center items-center gap-5'>
@@ -20,4 +21,16 @@ function App(){
   )
 }
 
-export default App
+const Name = () =>{
+  const Appname = "P A U L S 0 N"
+  return(
+    <>
+      <div className='w-screen h-[15vh] flex flex-col bg-black'>
+        <Navbar appname={Appname}/>
+      </div>
+    </>
+  )
+}
+
+export {App}
+export {Name}
