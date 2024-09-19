@@ -1,10 +1,10 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import {Provider} from 'react-redux'
 import './assets/styles/style.css'
-
+import store from './redux/store.js'
 createRoot(document.getElementById('root')).render(
-    <Provider>
-        <Navbar></Navbar>
-        <Login></Login>
+    <Provider store={store}>
+        <App/>
     </Provider>
 )
