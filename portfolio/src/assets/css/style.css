@@ -13,3 +13,8 @@
 .active{
     color: rgb(16, 16, 207);
 }
+
+li{
+    list-style-position: inside;
+    list-style-type: circle;
+}
