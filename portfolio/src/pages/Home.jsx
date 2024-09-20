@@ -14,14 +14,12 @@ const Home = () =>{
               Strong problem-solving abilities coupled with effective communication skills. <br></br>
               Committed to continuous learning and staying updated with emerging technologies.
             </div>
-            <div className="h-20 items-center">
-            <div className="flex justify-around">
-              <button className="flex"><i className="fa-brands fa-java text-5xl hover:text-7xl transition-all"></i></button>
-              <button className="flex"><i className="fa-brands fa-react text-5xl hover:text-7xl transition-all"></i></button>
-              <button className="flex"><i className="fa-brands fa-html5 text-5xl hover:text-7xl transition-all"></i></button>
-              <button className="flex"><i className="fa-brands fa-css3-alt text-5xl hover:text-7xl transition-all"></i></button>
-              <button className="flex"><i className="fa-solid fa-database text-5xl hover:text-7xl transition-all"></i></button>
-            </div>
+            <div className="h-20 items-center flex justify-around">
+              <button className="flex"><i className="fa-brands fa-java text-5xl hover:text-7xl text-red-700 transition-all"></i></button>
+              <button className="flex"><i className="fa-brands fa-react text-5xl hover:text-7xl text-blue-400 transition-all"></i></button>
+              <button className="flex"><i className="fa-brands fa-github text-5xl hover:text-7xl transition-all"></i></button>
+              <button className="flex"><i className="fa-brands fa-js text-5xl hover:text-7xl text-yellow-300 transition-all"></i></button>
+              <button className="flex"><i className="fa-solid fa-database text-5xl hover:text-7xl text-orange-500 transition-all"></i></button>
             </div>
           </div>
           <div className="h-[40vh] w-[20vw] flex flex-col justify-center">
