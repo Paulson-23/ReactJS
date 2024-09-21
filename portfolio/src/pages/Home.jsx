@@ -4,10 +4,10 @@ const Home = () =>{
       <div className=" h-screen flex flex-col justify-between items-center ">
         <div className="w-full h-full flex flex-row justify-around items-center ">
           <div className="flex flex-col text-white gap-10">
-            <div className="text-5xl">
+            <div className="text-6xl">
               Paulson M S
             </div>
-            <div className="">
+            <div className="text-lg">
               Committed software developer proficient in Java and SQL, supplemented by some exposure to Python,<br></br>
               HTML and CSS languages.Experienced in designing and implementing scalable solutions for projects. <br></br>
               Strong problem-solving abilities coupled with effective communication skills. <br></br>
