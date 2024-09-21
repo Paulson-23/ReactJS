@@ -7,8 +7,8 @@ import Contacts from "./pages/Contacts"
 
 function App(){
   return (
-    <div className="w-full h-screen flex flex-col bg-grad-deep-space font-mono">
-      <Navbar className="h-[8vh]"></Navbar>
+    <div className="w-full min-h-[100%] flex flex-col bg-grad-deep-space font-mono">
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Project/>}/>

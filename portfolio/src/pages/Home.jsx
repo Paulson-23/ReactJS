@@ -2,7 +2,6 @@ import Profile from "../assets/img/passport-size-photo.jpg"
 const Home = () =>{
     return(
       <div className=" h-screen flex flex-col justify-between items-center ">
-        {/* <Navbar></Navbar> */}
         <div className="w-full h-full flex flex-row justify-around items-center ">
           <div className="flex flex-col text-white gap-10">
             <div className="text-5xl">

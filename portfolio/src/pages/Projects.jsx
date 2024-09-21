@@ -1,11 +1,11 @@
 import Picture from '../assets/img/chopper.png'
 const Project = () =>{
     return(
-        <div className="w-screen h-screen text-white flex flex-col justify-center gap-10">
+        <div className="min-w-full min-h-screen flex flex-col justify-center text-white gap-10">
             <div className="text-4xl ml-10">
                 Projects
             </div>
-            <div className="flex justify-around">
+            <div className="flex justify-around flex-wrap">
                 <div className="flex flex-col w-[25rem] border-2 p-3 gap-6 rounded-2xl">
                     <div className="h-[15rem] border-2 flex justify-center rounded-2xl">
                         <img className='h-[14.7rem]' src={Picture}></img>
