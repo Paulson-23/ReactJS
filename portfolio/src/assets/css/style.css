@@ -27,13 +27,13 @@ li{
     min-height: 40rem;
     min-width: 30rem;
     background: -webkit-linear-gradient(to right, #1CB5E0, #146d91);
-    background: linear-gradient(to right, #1CB5E0, #2a9cac);
+    background: linear-gradient(to right, #647074, #0a1f22);
     transition: 0.3s ease;
     border-radius: 30px;
     filter: drop-shadow(0px 0px 30px rgb(33, 137, 155 , 0.25));
   }
   
-  .card::after {
+  /* .card::after {
     content: '';
     background-color: #0c0c0c;
     position: absolute;
@@ -43,7 +43,7 @@ li{
     top: 0.5%;
     left: 0.5%;
     border-radius: 28px;
-  } 
+  }  */
   
   .card:hover {
     filter: drop-shadow(0px 0px 30px rgb(38, 84, 209));
