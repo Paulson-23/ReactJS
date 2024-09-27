@@ -7,13 +7,15 @@ import Contacts from "./pages/Contacts"
 
 function App(){
   return (
-    <div className="w-full min-h-[100%] flex flex-col bg-grad-deep-space font-mono">
+    <div>
+    <div className="w-full h-screen flex flex-col bg-grad-deep-space font-mono">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Project/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
       </Routes>
+    </div>
     </div>
   )
 }
