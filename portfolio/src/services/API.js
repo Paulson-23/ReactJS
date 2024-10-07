@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API = "mongodb+srv://paulsonmsc:Cainemvhzc01@portfoliodb.93dr3.mongodb.net/?retryWrites=true&w=majority&appName=PortfolioDB"
+const API = "http://localhost:5000/"
 
 const getProjects = () => axios.get(`${API}projects`)
 const getProjectbyID = (id) => axios.get(`${API}/projects/${id}`)

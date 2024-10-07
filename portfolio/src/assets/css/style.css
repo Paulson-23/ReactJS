@@ -23,7 +23,7 @@ li{
 }
 .card {
     position: relative;
-    min-height: 40rem;
+    min-height: 50rem;
     min-width: 30rem;
     width: 30rem;
     /* border: 5px solid -webkit-linear-gradient(to right, #1CB5E0, #146d91);

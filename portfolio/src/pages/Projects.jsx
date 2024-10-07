@@ -36,7 +36,7 @@ if (!projectdata) {
 
         {
           projectdata.map((data, index) => (
-            <ProjectCard title={data.Title} desc={data.desc} key={index} cover={data.cover} id={data.id} link={data.link} fetchprojects={fetchprojects} />
+            <ProjectCard title={data.Title} desc={data.Desc} key={index} cover={data.Cover} id={data.id} link={data.Link} fetchprojects={fetchprojects} />
           ))
         }
       </div >

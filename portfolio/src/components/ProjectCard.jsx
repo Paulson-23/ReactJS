@@ -50,17 +50,17 @@ const ProjectCard = ({ title, desc, cover, id, link, fetchprojects }) => {
     }
     return (
             <div className="card flex flex-col transition-all text-black hover:text-white hover:bg-black">
-                <div className="w-[30rem] bg-black">
+                <div className="w-[30rem] bg-black ">
                     <img src={cover} alt={title} className="rounded-t-2xl"/>
                 </div>
-                <div className="flex flex-col gap-3 pl-4 pt-3">
+                <div className="flex min-h-full flex-grow flex-col gap-3 p-6">
                     <div className="text-5xl font-bold">{title}</div>
                     <div className="text-xl">{desc}</div>
                     <a href={link} target="_blank" className="">{link}</a>
+                </div>
                     <div className="flex justify-end">
                         <ArrowBigRight className="size-14"/>
                     </div>
-                </div>
             </div>
     )
 }
